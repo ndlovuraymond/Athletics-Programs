@@ -1,0 +1,444 @@
+#__vue-devtools-container__,
+#vue-inspector-container {
+  display: none;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.nav-link.active {
+  color: #ff6b00 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #ff6b00;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(196, 193, 193, 0.7);
+  text-align: center;
+}
+
+#join {
+  background: url('join-us.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 10px rgba(196, 193, 193, 0.7);
+  text-align: center;
+}
+
+.hero h1,
+#join h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #fff;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.01);
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.hero p,
+#join p {
+  font-size: 1.9rem;
+}
+
+#about,
+#achievements,
+#contact {
+  min-height: 100vh;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0rem 0.5rem
+}
+
+.about-us-content,
+.activities-content,
+.achievements-content,
+.about-us-img,
+.activities-img,
+.achievements-img {
+  padding: 0rem 2rem
+}
+
+.about-us-content h2,
+.activities-content h2,
+.achievements-content h2,
+#contact h2 {
+  font-size: 2.7rem;
+  font-weight: bolder;
+}
+
+.about-us-content p,
+.activities-content p,
+.achievements-content p {
+  font-size: 1.1rem;
+}
+
+#contact a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.about-us-img img,
+.activities-img img,
+.achievements-img img {
+  width: 100%;
+  border-radius: 10px
+}
+
+#contact img {
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#activities {
+  min-height: 100vh;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0rem 0.5rem
+}
+
+.btn-custom {
+  color: white;
+  padding: 0.35rem 1.25rem;
+  font-size: 1.45rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media(max-width: 1200px) and (min-width: 992px) {
+
+  .hero h1,
+  #join h2 {
+    font-size: 2.75rem;
+    color: #fff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.01);
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+  .hero p,
+  #join p {
+    font-size: 1.65rem;
+  }
+
+  .about-us-content h2,
+  .activities-content h2,
+  .achievements-content h2,
+  #contact h2 {
+    font-size: 2.45rem;
+    font-weight: bolder;
+  }
+
+  .about-us-content p,
+  .activities-content p,
+  .achievements-content p {
+    font-size: 1rem;
+  }
+
+  #contact a {
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  #contact img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .btn-custom {
+    padding: 0.35rem 1.25rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 992px) and (min-width: 768px) {
+
+  .hero h1,
+  #join h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.01);
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+  .hero p,
+  #join p {
+    font-size: 1.65rem;
+  }
+
+  .about-us-content h2,
+  .activities-content h2,
+  .achievements-content h2,
+  #contact h2 {
+    font-size: 2.1rem;
+  }
+
+  .about-us-content p,
+  .activities-content p,
+  .achievements-content p {
+    font-size: 0.925rem;
+  }
+
+  #contact a {
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  #contact img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .btn-custom {
+    padding: 0.25rem 1rem;
+    font-size: 1.35rem;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+
+  #activities,
+  #about,
+  #achievements,
+  #contact {
+    padding: 1.25rem 0.5rem
+  }
+
+  .hero h1,
+  #join h2 {
+    font-size: 2.15rem;
+    color: #fff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.01);
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+  .hero p,
+  #join p {
+    font-size: 1.5rem;
+  }
+
+  .about-us-content h2,
+  .activities-content h2,
+  .achievements-content h2,
+  #contact h2 {
+    font-size: 1.85rem;
+  }
+
+  .about-us-content p,
+  .activities-content p,
+  .achievements-content p {
+    font-size: 1rem;
+  }
+
+  #contact a {
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  #contact img {
+    width: 65%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .btn-custom {
+    padding: 0.25rem 1rem;
+    font-size: 1.35rem;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  .about-us-content,
+  .activities-content,
+  .achievements-content,
+  .about-us-img,
+  .activities-img,
+  .achievements-img {
+    padding: 0rem 1.5rem
+  }
+}
+
+@media (max-width: 576px) and (min-width: 420px) {
+
+  #activities,
+  #about,
+  #achievements,
+  #contact {
+    padding: 1.25rem 0.5rem
+  }
+
+  .hero h1,
+  #join h2 {
+    font-size: 2.15rem;
+    color: #fff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.01);
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+  .hero p,
+  #join p {
+    font-size: 1.3rem;
+  }
+
+  .about-us-content h2,
+  .activities-content h2,
+  .achievements-content h2,
+  #contact h2 {
+    font-size: 1.85rem;
+  }
+
+  .about-us-content p,
+  .activities-content p,
+  .achievements-content p {
+    font-size: 1rem;
+  }
+
+  #contact a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  #contact img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .btn-custom {
+    padding: 0.25rem 1rem;
+    font-size: 1.35rem;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  .about-us-content,
+  .activities-content,
+  .achievements-content,
+  .about-us-img,
+  .activities-img,
+  .achievements-img {
+    padding: 0rem 1.25rem
+  }
+}
+
+@media (max-width: 420px) {
+
+  #activities,
+  #about,
+  #achievements,
+  #contact {
+    padding: 1.2rem 0.5rem
+  }
+
+  .hero h1,
+  #join h2 {
+    font-size: 1.85rem;
+    color: #fff;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.01);
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+
+  .hero p,
+  #join p {
+    font-size: 1.25rem;
+  }
+
+  .about-us-content h2,
+  .activities-content h2,
+  .achievements-content h2,
+  #contact h2 {
+    font-size: 1.65rem;
+  }
+
+  .about-us-content p,
+  .activities-content p,
+  .achievements-content p {
+    font-size: 0.9rem;
+  }
+
+  #contact a {
+    font-size: 1.35rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  #contact img {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .btn-custom {
+    padding: 0.2rem 0.8rem;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .about-us-content,
+  .activities-content,
+  .achievements-content,
+  .about-us-img,
+  .activities-img,
+  .achievements-img {
+    padding: 0rem 1rem
+  }
+}
